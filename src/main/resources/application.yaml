@@ -1,0 +1,3 @@
+jwt:
+  secretKey: uaAlqruu0xZdMGa1FdGJmxrarqpUbu9VqaDnTqkFAHU=
+  cookieExpiry: 60 #second
