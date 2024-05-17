@@ -21,8 +21,6 @@ import java.io.IOException;
 @RequiredArgsConstructor
 public class JwtAuthFilter extends OncePerRequestFilter {
 
-    //TODO: Refactor code pretty, and look extractUsername e.t.c I think some spaces is redundant like extract username by token
-
     private final JwtService jwtService;
     private final UserDetailsServiceImpl userDetailsServiceImpl;
     @Override
